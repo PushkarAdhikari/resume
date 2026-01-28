@@ -1,0 +1,167 @@
+/* Color vars */
+:root {
+    --primary: #1f4fd8;
+    --text-main: #1f2933;
+    --text-muted: #5f6c7b;
+    --border-card: #d6deeb;
+    --border-light: #e6e6e6;
+    --bg-page: #eef2f7;
+    --bg-container: #fff;
+    --bg-card: #fff;
+    --bg-tags: #e8eeff;
+}
+
+/* Reset & Base */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    background-color: var(--bg-page);
+    color: var(--text-main);
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 1.35rem;
+    color: var(--primary);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--border-card);
+}
+
+h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+}
+
+p {
+    margin-bottom: 0.6rem;
+    color: var(--text-muted);
+}
+
+
+header,
+footer,
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** header Section */
+header {
+    background: var(--bg-card);
+    padding: 2rem 1.5rem 1.5rem;
+    border-bottom: 4px solid var(--primary);
+    margin-top: 2rem;
+    border-radius: 16px 16px 0 0;
+}
+
+.header-section h1 {
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.header-section p {
+    margin-top: 0;
+    color: var(--text-muted);
+}
+
+/** main Section */
+main.container {
+    padding: 1.5rem;
+    background-color: var(--bg-container);
+    border-radius: 0 0 16px 16px;
+}
+
+main section {
+    background-color: var(--bg-card);
+    padding: 1.6rem 1.7rem;
+    margin-bottom: 1.5rem;
+    border-radius: 16px;
+    border: 1px solid var(--border-card);
+    box-shadow: 0 10px 25px rgba(31, 79, 216, 0.08);
+}
+
+/** projects Section */
+.projects-section article {
+    margin-bottom: 1.2rem;
+}
+
+.projects-section ul {
+    margin-top: 0.4rem;
+    padding-left: 1.2rem;
+}
+
+.projects-section li {
+    font-size: 0.9rem;
+}
+
+/** Skills Section */
+.skill-section ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.skill-section li {
+    background-color: var(--bg-tags);
+    color: var(--primary);
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+/** table Section */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.table caption {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: var(--text-main);
+}
+
+.table th,
+.table td {
+    padding: 0.65rem 0.7rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.table thead th {
+    background: #f3f6fb;
+    font-weight: 600;
+}
+
+.table tbody tr:last-child td,
+.table tbody tr:last-child th {
+    border-bottom: none;
+}
+
+/** footer Section */
+.footer-section {
+    text-align: center;
+    margin: 2rem;
+}
+
+.contact-section {
+    margin-bottom: 0;
+}
