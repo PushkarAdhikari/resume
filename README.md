@@ -18,6 +18,16 @@ This project demonstrates semantic HTML, modern CSS styling, and a professional 
 
 ---
 
+## 📸 Screenshots
+
+### Desktop View
+![Desktop View](screenshots/desktop.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile.png)
+
+---
+
 ## 📂 Project Structure
 resume/
 ├── index.html
