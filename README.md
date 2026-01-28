@@ -31,7 +31,7 @@ resume/
 ### Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/resume.git
+   git clone https://github.com/PushkarAdhikari/resume.git
 
 2. Open the project folder:
     cd resume
